@@ -515,11 +515,11 @@ The application provides:
 
 ## AI Risk Classification
 
-![Risk classificaton](screenshots/risk classification.png)
+![Risk classificaton](screenshots/risk-classification.png)
 
 ## AI Sensitive Data Distribution
 
-![Sensitive Data Distribution](screenshots/sensitive data distribution.png)
+![Sensitive Data Distribution](screenshots/sensitive-data-distribution.png)
 
 # 🎯 Use Cases
 
