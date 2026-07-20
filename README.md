@@ -567,4 +567,8 @@ Special thanks to the open-source community and the following technologies:
 - pdf2image
 - Pandas
 - Pillow
-- Python
+- Python 
+
+## 🚀 Live Demo
+
+https://sensitive-data-detector-fexr6qsghawwndaj73ul39.streamlit.app/
