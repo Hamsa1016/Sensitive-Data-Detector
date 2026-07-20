@@ -135,11 +135,7 @@ def extract_text_from_image(image):
 
     return text
 def extract_text_from_scanned_pdf(uploaded_file):
-
-    images = convert_from_bytes(
-        uploaded_file.read(),
-        poppler_path=r"C:\Users\Anantha Lakshmi\Downloads\Release-26.02.0-0\poppler-26.02.0\Library\bin"
-    )
+    images = convert_from_bytes(uploaded_file.read())
 
     text = ""
 
@@ -147,11 +143,6 @@ def extract_text_from_scanned_pdf(uploaded_file):
         text += pytesseract.image_to_string(img)
 
     return text
-
-
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
 
 
 # ==========================================================
