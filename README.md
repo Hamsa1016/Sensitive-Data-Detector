@@ -570,5 +570,8 @@ Special thanks to the open-source community and the following technologies:
 - Python 
 
 ## 🚀 Live Demo
-
+1) Streamlit Community Cloud : 
 https://sensitive-data-detector-fexr6qsghawwndaj73ul39.streamlit.app/
+
+2) Render : 
+https://sensitive-data-detector.onrender.com/
